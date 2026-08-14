@@ -15,19 +15,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate GitHub Trophy
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           username: Anubhav2912
-          file: ./profile/trophy.svg
-          token: ${{ github.token }}
+          file: profile/trophy.svg
           theme: darkhub
-
-      - name: Verify trophy
-        run: |
-          echo "Checking generated trophy..."
-          ls -lh profile/trophy.svg
 
       - name: Commit trophy
         run: |

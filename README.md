@@ -119,7 +119,9 @@ I enjoy building backend applications, designing RESTful services, working with 
 ## 🏆 Achievements
 
 <p align="center">
-  <img src="./profile/trophy.svg" width="100%" alt="GitHub Achievements" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Anubhav2912&theme=darkhub&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+  </a>
 </p>
 
 ---

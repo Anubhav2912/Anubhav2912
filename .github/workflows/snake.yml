@@ -1,35 +1,44 @@
-name: Generate Contribution Snake
+name: Update GitHub Profile Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
+permissions:
+  contents: write
 
-    permissions:
-      contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate contribution snake
-        uses: Platane/snk/svg-only@v3
+      - name: Generate GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          github_user_name: Anubhav2912
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          card: stats
+          options: username=Anubhav2912&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&rank_icon=github
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Deploy snake to output branch
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          commit_message: "Update contribution snake"
+          card: top-langs
+          options: username=Anubhav2912&layout=compact&langs_count=8&hide_border=true&theme=github_dark
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/*.svg
+
+          git diff --cached --quiet || git commit -m "Update GitHub profile stats"
+
+          git push

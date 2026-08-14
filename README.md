@@ -116,21 +116,6 @@ I enjoy building backend applications, designing RESTful services, working with 
 
 ---
 
-<h2>🏆 Achievements</h2>
-
-<div align="center">
-
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img
-    src="https://github-profile-trophy-liard-delta.vercel.app/?username=Anubhav2912&theme=darkhub&margin-w=10&margin-h=10"
-    alt="GitHub Trophies"
-  />
-</a>
-
-</div>
-
----
-
 ## 🚀 Selected Projects
 
 | Project | Focus | Technologies |

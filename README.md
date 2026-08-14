@@ -1,3 +1,6 @@
+
+# 👇 Copy everything below into README.md
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:071A1F,50:00B8D9,100:7CFF6B&text=ANUBHAV%20KUMAR%20SINGH&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=JAVA%20BACKEND%20%7C%20SPRING%20BOOT%20%7C%20MICROSERVICES%20%7C%20CLOUD&descAlignY=62&descSize=15&animation=fadeIn&pattern=rect&patternColor=FFFFFF&patternSize=12&patternOpacity=0.12" width="100%" />
 </p>
@@ -23,7 +26,6 @@
 Name        : Anubhav Kumar Singh
 Education   : B.Tech. CSE — Cloud Computing & Automation
 University  : VIT Bhopal University
-CGPA        : 8.66
 
 Primary     : Java Backend Development
 Core        : Spring Boot • Spring Security • Spring Cloud
@@ -57,7 +59,7 @@ I enjoy building backend applications, designing RESTful services, working with 
   <img src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge" />
   <img src="https://img.shields.io/badge/API_Gateway-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
-  <img src="https://img.shields.io/badge/OAuth-3C3C3D?style=for-the-badge&logo=oauth&logoColor=white" />
+  <img src="https://img.shields.io/badge/OAuth-3C3C3D?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Okta-007DC1?style=for-the-badge&logo=okta&logoColor=white" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 </p>
@@ -86,7 +88,7 @@ I enjoy building backend applications, designing RESTful services, working with 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
@@ -95,8 +97,8 @@ I enjoy building backend applications, designing RESTful services, working with 
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anubhav2912&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&rank_icon=github" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anubhav2912&layout=compact&langs_count=8&hide_border=true&theme=github_dark" height="180" />
+  <img src="./profile/stats.svg" height="180" />
+  <img src="./profile/top-langs.svg" height="180" />
 </p>
 
 <p align="center">
@@ -120,7 +122,7 @@ I enjoy building backend applications, designing RESTful services, working with 
 ## 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Anubhav2912&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" width="100%" />
+  <img src="./profile/trophy.svg" width="100%" alt="GitHub Achievements" />
 </p>
 
 ---
@@ -130,7 +132,7 @@ I enjoy building backend applications, designing RESTful services, working with 
 | Project | Focus | Technologies |
 | :--- | :--- | :--- |
 | **Apistry** | API testing & collaboration platform | `Java` `Spring Boot` `Spring Security` `PostgreSQL` `Docker` |
-| **Microservices-Based Project** | Distributed services, API Gateway & security | `Java` `Spring Boot` `Spring Cloud` `JWT` `Okta` |
+| **Microservices-Based Project** | Distributed services, API Gateway & Security | `Java` `Spring Boot` `Spring Cloud` `JWT` `Okta` |
 | **AgroVITa** | Secure agricultural platform & REST APIs | `Java` `Spring Boot` `Spring Security` `JPA` `MySQL` |
 | **Weather Forecast Website** | Weather data backend & API models | `Java` `Spring Boot` `REST APIs` |
 
@@ -140,8 +142,10 @@ I enjoy building backend applications, designing RESTful services, working with 
 
 ## 🎓 Education & Certifications
 
-**B.Tech. in Computer Science Engineering**  
-*Specialization: Cloud Computing and Automation*  
+**B.Tech. in Computer Science Engineering**
+
+*Specialization: Cloud Computing and Automation*
+
 **VIT Bhopal University** · **CGPA: 8.66**
 
 ### Certifications

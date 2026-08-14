@@ -172,5 +172,5 @@ I enjoy building backend applications, designing RESTful services, working with 
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:1D4ED8,50:172554,100:0D1117&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:7CFF6B,50:00B8D9,100:071A1F&section=footer" width="100%" />
 </p>

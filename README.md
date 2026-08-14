@@ -1,6 +1,3 @@
-
-# 👇 Copy everything below into README.md
-
 <p align="center">
   <img src="./assets/header.gif" width="100%" />
 </p>
